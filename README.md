@@ -5,3 +5,7 @@ friday chat bot android application
 ![Screenshot 2025-07-07 141712](https://github.com/user-attachments/assets/0934b375-aa91-4ecb-a78b-b5526aece800)
 
 
+
+
+https://github.com/user-attachments/assets/4ee189f5-ae29-4169-b29f-3ddb9d04f1a4
+
