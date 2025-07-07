@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/new_gg"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="30dp">
+    <ProgressBar
+        android:id="@+id/dialogProgressBar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Logo/Image -->
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/cb"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Your Password"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/dialogInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/boder"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"/>
+
+    <!-- Button Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Cancel"
+            android:backgroundTint="#0E0D0C"
+            android:textColor="@android:color/white"
+            android:layout_marginEnd="5dp"/>
+
+        <!-- Confirm Button -->
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:text="Confirm"
+            android:backgroundTint="#28993B"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

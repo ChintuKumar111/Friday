@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fitsSystemWindows="true"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_logout_24"
+        android:layout_alignParentEnd="true"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- Lottie Animation in the background -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/Animation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:visibility="visible"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/annq" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/loadingAnimation"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            app:lottie_autoPlay="false"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/animationn" />
+
+        <ImageView
+            android:id="@+id/chatBotImage"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boder"
+            android:src="@drawable/cb" />
+
+
+    </LinearLayout>
+
+
+
+    <!-- Chat Messages RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="373dp"
+        android:layout_height="607dp"
+        android:layout_above="@id/inputLayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="10dp"
+        android:scrollbars="none" />
+    <ImageView
+        android:id="@+id/botImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"/>
+    <!-- Loading Animation -->
+
+
+    <!-- Input Field with Send Button -->
+    <LinearLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="@drawable/bg_rounded_input"
+        android:elevation="4dp">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:hint="Type your message..."
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#0D0B0B"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_menu_send"
+            android:contentDescription="Send Message"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

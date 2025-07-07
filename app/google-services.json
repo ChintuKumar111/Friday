@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956949379886",
+    "project_id": "friday1-d62f2",
+    "storage_bucket": "friday1-d62f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956949379886:android:a221900c3c511386ba18bf",
+        "android_client_info": {
+          "package_name": "com.example.friday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjKLe-ycgbdIQtXtVWCFSqjnxGx3Fuq9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
