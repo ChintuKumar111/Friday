@@ -1,6 +1,5 @@
 friday chat bot android application
 
 #ScreenShots
-![WhatsApp Image 2025-07-07 at 12 34 15 PM](https://github.com/user-attachments/assets/fa18bf31-2a25-431a-af1a-e5aabe0db7da)
-![WhatsApp Image 2025-07-07 at 12 34 14 PM](https://github.com/user-attachments/assets/df5cdc1c-12ad-47e9-9df2-2daf3a7a7d4a)
-![WhatsApp Image 2025-07-07 at 12 34 15 PM (1)](https://github.com/user-attachments/assets/0a2c3e93-9444-491c-8a7b-0693aedaeb76)
+![Screenshot 2025-07-07 141435](https://github.com/user-attachments/assets/08aa75d1-8a91-4c7b-a8a6-7fe33723ec8c)
+![Screenshot 2025-07-07 141712](https://github.com/user-attachments/assets/0934b375-aa91-4ecb-a78b-b5526aece800)
