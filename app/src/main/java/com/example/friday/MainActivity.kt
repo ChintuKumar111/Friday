@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     private val messages = mutableListOf<Message>()
     private lateinit var chatAdapter: ChatAdapter
 
-    private val apiKey = "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"
+    private val apiKey = "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"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
